@@ -1,0 +1,15 @@
+まずはuser.listにユーザ名を書いていきます。
+
+ex) 
+user1
+user2
+user3
+user4
+
+次に下記を実行
+# ./make_user.sh
+※user.listのユーザが作成されます。
+
+その後、下記を実行
+# ./change_pw.sh [STRING_TO_PASSWORD]
+※第一引数の文字列を全ユーザのパスワードとして設定します
